@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     data: {
       todos: [
         {title: "Clean out the garage", priority: false},
-        {title: "Buy new wheels", priority: false},
+        {title: "Buy new whip", priority: false},
         {title: "Buy a cat", priority: true},
       ],
       newTodo: {title: "", priority: false}

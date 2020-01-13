@@ -11,9 +11,9 @@
     <h1> todo list </h1>
     <ul>
       <li v-for="(todo, index) in todos" >
-        <span>{{todo.title}}</span>
-        <span v-if="todo.priority">High</span>
-        <span v-else="!todo.priority">Low</span>
+        <span class="title">{{todo.title}}</span>
+        <span class="high-prio" v-if="todo.priority">High</span>
+        <span class="low-prio" v-else="!todo.priority">Low</span>
        </li>
     </ul>
 

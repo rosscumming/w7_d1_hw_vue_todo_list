@@ -2,3 +2,22 @@ body{
   background: grey;
   color:white;
 }
+
+
+.high-prio {
+  background: red;
+}
+
+.low-prio {
+  background: green;
+}
+
+
+li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+ .low-prio, .high-prio {
+  margin-left: 15px;
+}
