@@ -5,14 +5,16 @@ document.addEventListener('DOMContentLoaded', () => {
     el: "#app",
     data: {
       todos: [
-        "Clean out the garage", "Buy new wheels", "Buy a cat"
+        {title: "Clean out the garage", priority: false},
+        {title: "Buy new wheels", priority: false},
+        {title: "Buy a cat", priority: true},
       ],
-      newTodo: ""
+      newTodo: {title: "", priority: false}
     },
     methods: {
       saveNewItem: function () {
         this.todos.push(this.newTodo)
-        this.newTodo = ""
+        this.newTodo = { title: "", priority: false }
       }
     }
   })
